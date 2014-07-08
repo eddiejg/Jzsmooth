@@ -1,0 +1,441 @@
+/*
+ * Global Sytles
+ */
+body {
+  overflow-x: hidden;
+}
+
+a:focus,
+button::-moz-focus-inner {
+  border: 0;
+}
+
+/** Header **/
+header#global {
+  position: relative;
+}
+
+/** Top Navigation **/
+#top-navigation {
+  color: #aaaaaa;
+  background-color: #f2f2f2;
+  font-family: "aktiv-grotesk-std", sans-serif;
+  font-weight: 300;
+}
+
+#top-navigation a {
+  color: #aaaaaa;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+
+#top-navigation li.language {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#top-navigation nav {
+  background: none;
+  margin-bottom: 0;
+  border: none;
+}
+
+#top-navigation ul.nav {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#top-navigation .navbar-toggle {
+  float: left;
+  margin-top: 12px;
+}
+
+#top-navigation .navbar-form {
+  width: 30%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  display: none;
+  position: relative;
+}
+
+#keywords {
+  margin-top: 5px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.35em;
+  height: 23px;
+  border-radius: 23px;
+  font-size: 13px;
+}
+
+#top-navigation .navbar-form .close {
+  position: absolute;
+  right: 7px;
+  top: 8px;
+  font-size: 17px;
+}
+
+#top-navigation .nav.search {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#top-navigation .navbar-form .form-group,
+#top-navigation .navbar-form .form-group input {
+  width: 100%;
+}
+
+#top-navigation ul.search li {
+  padding: 0 0 0 6px;
+}
+
+#top-navigation a.search {
+  display: block;
+  padding: 0;
+  margin-top: 18px;
+  width: 11px;
+  height: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: -99999px;
+  background: url('../img/icon-search.png') no-repeat center;
+}
+
+#top-navigation li.language a {
+  display: block;
+  padding: 0;
+  margin: 19px auto 16px;
+  width: 18px;
+  height: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: -99999px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#top-navigation li.language ul {
+  width: 39px;
+  min-width: inherit;
+  background-color: #F2F2F2;
+  border: none;
+  z-index: 1500;
+}
+
+#top-navigation li.language ul li {
+  text-align: middle;
+}
+
+#top-navigation a.usa, #top-navigation li.usa a {
+  background-image: url('../img/icon-flag-usa.png');
+}
+
+#top-navigation a.eu, #top-navigation li.eu a {
+  background-image: url('../img/icon-flag-eu.png');
+}
+
+#top-navigation a.uk, #top-navigation li.uk a {
+  background-image: url('../img/icon-flag-uk.png');
+}
+
+#top-navigation a.germany, #top-navigation li.germany a {
+  background-image: url('../img/icon-flag-germany.png');
+}
+
+#top-navigation a.france, #top-navigation li.france a{
+  background-image: url('../img/icon-flag-france.png');
+}
+
+#top-navigation a.japan, #top-navigation li.japan a {
+  background-image: url('../img/icon-flag-japan.png');
+}
+
+#top-navigation a.au, #top-navigation li.au a {
+  background-image: url('../img/icon-flag-au.png');
+}
+
+
+@media (max-width: 767px) {
+
+  #top-navigation .nav.search {
+    float: right;
+    margin-right: 1em;
+  }
+
+  #top-navigation .nav.lang {
+    float: right;
+    margin-right: 1em;
+    margin-left: 0;
+  }
+
+  #top-navigation .navbar-form {
+    float: right;
+    width: 50%;
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  #top-navigation .navbar-form .close {
+    top: 17px;
+  }
+
+  #top-navigation .navbar-collapse {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #top-navigation a.search {
+    margin-top: 16px;
+  }
+
+  #top-navigation .navbar-nav .open .dropdown-menu {
+    position: absolute;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  #top-navigation ul.nav li.dropdown:hover > ul.dropdown-menu {
+      display: block;
+  }
+
+
+}
+
+/** Logo **/
+#logo a {
+  display: block;
+  width: 238px;
+  height: 50px;
+  white-space: nowrap;
+  text-indent: -9999px;
+  background: url('../img/logo.png') no-repeat transparent;
+  background-size: contain;
+}
+
+/** Main Navigation **/
+#main-navigation {
+  padding: 1.857em 0 2.214em 0;
+  font-family: "aktiv-grotesk-std", sans-serif;
+  font-weight: 300;
+}
+
+#main-navigation a {
+  color: #58595b;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+#main-navigation a:hover {
+  background-color: transparent;
+  color: #2e95d7;
+}
+
+#main-navigation .navbar-toggle {
+  border-color: #2E95D7;
+  margin-top: 28px;
+}
+
+#main-navigation .navbar-toggle .icon-bar {
+  background-color: #2E95D7;
+}
+
+#main-navigation .navbar-toggle.collapsed {
+  border-color: #58595B;
+}
+
+#main-navigation .navbar-toggle.collapsed .icon-bar {
+  background-color: #58595B;
+}
+
+#main-nav {
+  padding: 1.5em 0 0 0;
+}
+
+#main-nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+#main-navigation ul li.active > a {
+  color: #2e95d7;
+}
+
+#main-navigation ul li.disabled a {
+  color: #a7a9ac;
+}
+
+#main-navigation ul.nav-subnav {
+  padding-top: 0;
+  text-align: right;
+  min-width: 600px;
+  border: none;
+  box-shadow: none;
+}
+
+#main-navigation li.active ul.dropdown-menu {
+  display: block;
+}
+
+#main-navigation li:hover ul.dropdown-menu {
+  display: block;
+}
+
+#main-navigation ul.dropdown-menu li {
+  display: inline-block;
+}
+
+#main-navigation ul.dropdown-menu li a {
+  padding: 0 15px;
+}
+
+#main-navigation ul.dropdown-menu li.active a {
+  background: transparent;
+}
+
+#main-navigation .navbar-right {
+  clear: right;
+}
+
+@media (max-width: 767px) {
+
+  #main-navigation ul.nav-subnav {
+    min-width: 0;
+    position: static;
+    float: right;
+    margin-right: 0;
+    display: block;
+  }
+
+  #main-navigation ul.dropdown-menu li {
+    display: block;
+  }
+
+  #main-navigation ul.dropdown-menu li a {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  #main-navigation .nav-subnav {
+    text-align: right;
+  }
+
+}
+
+@media (max-width: 360px) {
+
+  #logo a {
+    width: 70%;
+  }
+
+}
+
+/** Modal Styling **/
+
+.modal-header {
+	background-color: #778490;
+	color: #fff;
+	text-align: center;
+}
+
+
+
+/** Commenting out modal styling until fixed later
+.modal-body {
+	background-color: #EEEEEF;
+}
+
+.modal-footer::before {
+	background-color: #EEEEEF;
+}
+
+
+.modal-footer {
+	background-color: #EEEEEF;
+}  **/
+
+/** Main Navigation **/
+#sub-navigation {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: 100;
+}
+
+#sub-navigation li.active a {
+  color: #ffffff;
+}
+
+#sub-navigation a {
+  color: #d7d7d7;
+}
+
+#sub-navigation a:hover {
+  background: none;
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+
+  #sub-navigation {
+    position: static;
+    top: inherit;
+    right: inherit;
+  }
+
+}
+
+/** Footer **/
+footer#global {
+  background-color: #464646;
+  padding: 2.143em 0 2.143em 0;
+}
+
+footer#global a:hover,
+footer#global a:focus {
+  background: none;
+  text-decoration: underline;
+}
+
+#footer-navigation ul a {
+  color: #fff;
+  font-size: 20px;
+  padding: 0;
+  font-family: "aktiv-grotesk-std", sans-serif;
+  font-weight: 100;
+  margin-bottom: 0.550em;
+}
+
+#footer-navigation ul li {
+  margin: 0 0.5em 0.3em 0;
+}
+
+#footer-navigation ul.navbar-right li {
+  margin-right: 0;
+}
+
+#footer-navigation ul ul a {
+  color: #cacaca;
+  font-size: 13px;
+  padding-left: 0;
+  padding-right: 0.5em;
+  font-family: "aktiv-grotesk-std", sans-serif;
+  font-weight: 300;
+}
+
+#bottom-navigation a {
+  color: #cacaca;
+  font-size: 12px;
+}
+
+#footer-navigation {
+  padding-left:1.5em;
+}
